@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="427216bb-31d7-43c3-8622-3c3555da1a7c" name="Changes" comment="something new">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_003_jar/demo_003.jar" afterDir="false" />
+    <list default="true" id="427216bb-31d7-43c3-8622-3c3555da1a7c" name="Changes" comment="the honk-honk project was finished!">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo_003_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/demo_003_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_003_jar/demo_003.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_003_jar/demo_003.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alexosta/demo_003/HonkHonk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexosta/demo_003/HonkHonk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
       <recent name="C:\Users\AlexOsta\Documents\~Programming\_JavaFX\demo_003\src\main\resources\com\alexosta\demo_003\audio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AlexOsta\Documents\~Programming\_JavaFX\demo_003\src\main\resources" />
       <recent name="C:\Users\AlexOsta\Documents\~Programming\_JavaFX\demo_003\src\main\resources\com\alexosta\demo_003\imgs" />
     </key>
   </component>
@@ -98,11 +101,20 @@
       <option name="project" value="LOCAL" />
       <updated>1710700189935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="the honk-honk project was finished!">
+      <option name="closed" value="true" />
+      <created>1710700369226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710700369226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="something new" />
-    <option name="LAST_COMMIT_MESSAGE" value="something new" />
+    <MESSAGE value="the honk-honk project was finished!" />
+    <option name="LAST_COMMIT_MESSAGE" value="the honk-honk project was finished!" />
   </component>
 </project>

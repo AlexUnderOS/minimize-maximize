@@ -16,14 +16,19 @@ import javafx.stage.Stage;
 
 import javafx.scene.media.MediaPlayer;
 
+import java.util.Objects;
+
 public class HonkHonk extends Application {
 
-    private Media media1 = new Media(getClass().getResource("audio/1.mp3").toExternalForm());
-    private Media media2 = new Media(getClass().getResource("audio/cats.mp3").toExternalForm());
+    private final Media media1 = new Media(Objects.requireNonNull(
+            getClass().getResource("audio/1.mp3")).toExternalForm());
+    private final Media media2 = new Media(Objects.requireNonNull(
+            getClass().getResource("audio/cats.mp3")).toExternalForm());
 
-    private MediaPlayer player1 = new MediaPlayer(media1);
-    private MediaPlayer player2 = new MediaPlayer(media2);
-    private final AudioClip clip1 = new AudioClip(getClass().getResource("audio/honk.mp3").toExternalForm());
+    private final MediaPlayer player1 = new MediaPlayer(media1);
+    private final MediaPlayer player2 = new MediaPlayer(media2);
+    private final AudioClip clip1 = new AudioClip(Objects.requireNonNull(
+            getClass().getResource("audio/honk.mp3")).toExternalForm());
 
     private ImageView imgView;
 
@@ -41,8 +46,8 @@ public class HonkHonk extends Application {
 
         primaryStage.setScene(new Scene(hBox));
 
-        Image img1 = new Image(getClass().getResourceAsStream("imgs/dog1.jpg"));
-        Image img2 = new Image(getClass().getResourceAsStream("imgs/dog2.jpg"));
+        Image img1 = new Image(Objects.requireNonNull ( getClass().getResourceAsStream("imgs/dog1.jpg")) );
+        Image img2 = new Image(Objects.requireNonNull ( getClass().getResourceAsStream("imgs/dog2.jpg")) );
         imgView.setImage(img2);
 
         hBox.getChildren().add(imgView);
@@ -51,8 +56,8 @@ public class HonkHonk extends Application {
         primaryStage.iconifiedProperty().addListener(new ChangeListener<Boolean>() {
             @Override
             public void changed(ObservableValue<? extends Boolean> ov, Boolean t, Boolean t1) {
-                System.out.println("minimized:" + t1.booleanValue());
-                if (t1.booleanValue()){
+                System.out.println("minimized:" + t1);
+                if (t1){
                     player1.play();
                     player2.pause();
                 }
